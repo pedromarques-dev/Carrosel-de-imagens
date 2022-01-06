@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color:  #C50000;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    max-width: 1920px;
+    position: relative;
+}
+
+.imagem {
+    max-width: 100%;
+}

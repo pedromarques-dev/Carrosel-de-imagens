@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrosel</title>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <img src="images/4.jpg" alt="Imagem 1" class="imagem ativa" />
+    <img src="images/1.jpg" alt="Imagem 2" class="imagem" />
+    <img src="images/3.jpg" alt="Imagem 3" class="imagem" />
+    <img src="images/2.jpg" alt="Imagem 4" class="imagem" />
+
+    <button
+      onclick="voltarParaImagemAnterior()"
+      type="button"
+      class="botao-seta-esquerda"
+    >
+      <img src="images/seta.png" alt="seta para esquerda" id="seta-esquerda" />
+    </button>
+
+    <button
+      onclick="passarParaProximaImagem()"
+      type="button"
+      class="botao-seta-direita"
+    >
+      <img src="images/seta.png" alt="seta para direita" id="seta-direita" />
+    </button>
+    <div class="content">
+      <section class="descricao-imagem">
+        <h2 id="titulo">Titulo da Imagem 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam sit
+          voluptatibus rem optio aliquam temporibus iusto necessitatibus
+          aperiam, laudantium error debitis eius delectus voluptatum, recusandae
+          excepturi ea minus consectetur id. Lorem ipsum dolor sit amet
+          consectetur adipisicing elit. Rerum sit esse sint exercitationem
+          itaque quidem, accusantium quasi laboriosam commodi provident id
+          nesciunt tenetur
+        </p>
+        <a href="/" id="link">Saiba mais</a>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="index.js"></script>
+  </body>
+</html>

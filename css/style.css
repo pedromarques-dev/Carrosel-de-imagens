@@ -1,0 +1,163 @@
+.imagem {
+    width: 100%;
+    display: none;
+    height: 800px;
+}
+
+
+.ativa {
+    display: block;
+}
+
+
+/* Botões */
+
+button {
+    cursor: pointer;
+    background: none;
+    border: none;
+}
+
+.botao-seta-esquerda {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.botao-seta-direita {
+    position: absolute;
+    top: 50%;
+    right: 40px;
+}
+
+#seta-esquerda {
+    transform: rotate(180deg);
+    display: none;
+    width: 20px;
+}
+
+#seta-direita {
+    width: 20px;
+}
+
+
+/* Descrição da imagem */
+
+
+.descricao-imagem {
+    width: 500px;
+    height: 600px;
+    background-color: #fff;
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.342);
+}
+
+.descricao-imagem h2 ,
+.descricao-imagem p ,
+.descricao-imagem a {
+    padding: 15px;
+    margin: 20px;
+}
+
+
+.descricao-imagem h2 {
+    font-size: 5rem;
+}
+
+.descricao-imagem p {
+    font-size: 2.5rem;
+    text-align: justify;
+}
+
+.descricao-imagem a{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+
+@media (max-width: 768.2px) {
+    .imagem{
+        height: 700px;
+    }
+
+    .descricao-imagem {
+        left: 21%;
+        width: 400px;
+        height: 450px;
+        text-align: center;
+        margin: auto;
+    }
+
+    .descricao-imagem h2 {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .descricao-imagem p {
+        margin-top: 0;
+        font-size: 2rem;
+    }
+
+    .botao-seta-esquerda {
+        top: 45%;
+        left: 10px;
+    }
+    
+    .botao-seta-direita {
+        top: 45%;
+        right: 10px;
+    }
+
+}
+
+@media (max-width:525.2px) {
+    .descricao-imagem {
+        width: 80%;
+        left: 10%   ;
+    }
+}
+
+@media (max-width:426px) {
+    .descricao-imagem h2{
+        font-size: 2.5rem;
+    }
+
+    .descricao-imagem p {
+        font-size: 1.7rem;
+    }
+}
+
+@media (max-width: 375.2px) {
+    .descricao-imagem {
+        width: 80%;
+        height: 370px;
+        left: 38px;
+        top: 20%;
+    }
+
+    .descricao-imagem h2 {
+        font-size: 2rem;
+        margin-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .descricao-imagem p {
+        font-size: 1.4rem;
+        margin-bottom: 10px;
+    }
+
+    .descricao-imagem a {
+        font-size: 1.4rem;
+        text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.336);
+    }
+
+    .botao-seta-direita {
+        right: 10px;
+    }
+
+    .botao-seta-esquerda {
+        left: 10px;
+    }
+}
