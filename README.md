@@ -7,14 +7,14 @@
 ## Tabela do conteúdo
 
    * [Sobre](#Sobre)
-   * [Tabela de Conteudo](#tabela-de-conteudo)
+   * [Tabela de Conteúdo](#tabela-de-conteudo)
    * [Status](#status)
-   * [Estruturação do código](#estruturacao-do-codigo)
    * [Objetivo](#objetivo)
-   * [Curiosidades](#curiosidades)
-   * [Tecnologias](#tecnologias)
+      * [Curiosidades](#curiosidades)
+       * [Tecnologias](#tecnologias)
    * [Acesse o site](#acesse-o-site)
-   * [Redes Sociais](#redes-sociais)
+   * [Autor](#autor)
+      * [Redes Sociais](#redes-sociais)
 
 ## Status
  
